@@ -154,13 +154,6 @@ def plot_rating_progression(df):
     plt.tight_layout()
     plt.show()
 
-######################################################
-# example:
-# username = "YourChessComUsername"
-# df = analyze_rating_progression(username)
-# plot_rating_progression(df)
-# additional analysis functions
-######################################################
 
 def find_rating_plateaus(df, window=50, threshold=5):
     # identifies periods where rating progress slows significantly
